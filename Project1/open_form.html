@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Личный кабинет</title>
+        <link rel="shortcut icon" href="./img/photo_0.gif" />
+        <meta charset="utf-8">
+        <meta name="description" content="Личный кабинет">
+        <meta name="keywords" content="Оформить визу в любую страну мира, туризм">
+        <meta name="author" content="MyVisa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header id="main-header">
+            <h2 id="site-title">Личный кабинет</h2>
+        </header>
+    <br /><br />
+    <main>
+        <section>
+            <h3>Моя заявка: </h3>
+            <br /><br />
+            <section id="contact-form1">
+                <h4>Выберите гражданство: </h4>
+                <input name="nationalityMethod" type="radio" value="nationality1"/>
+                Гражданство Россия<br />
+                <input name="nationalityMethod" type="radio" value="nationality2"/>
+                Другое гражданство<br />
+                <select name="nationality" multiple="multiple" >
+                <option value="az">Азербайджан</option>
+                <option value="kaz">Казахстан</option>
+                <option value="uzb">Узбекистан</option>
+                <option value="uk">Украина</option>
+                </select>
+            </section>
+                
+            <section id="contact-form">  
+                <h4>Страна, куда требуется виза: </h4>
+                <input name="italy" type="checkbox" />Италия<br />
+                <input name="spain" type="checkbox" />Испания<br />
+                <input name="germany" type="checkbox" />Германия<br />
+                <input name="finland" type="checkbox" />Финляндия<br />
+                <input name="usa" type="checkbox" />США<br />
+                <input name="canada" type="checkbox" />Канада<br />
+                <input name="japan" type="checkbox" />Япония<br />
+                <input name="switzerland" type="checkbox" />Швейцария<br />
+                <input name="france" type="checkbox" />Франция<br />
+            </section>
+         
+            <section id="data-tour">
+                <h4>Выберите даты предполагаемой поездки: </h4>
+                Выберите дату начала предполагаемой поездки: <input type="date" /><br />
+                Выберите дату окончания предполагаемой поездки: <input type="date" /><br />
+                <br /><br />
+                <br /><br />
+            </section>
+            <br /><br />
+        </section>
+        <input type="submit" id="button-form" value="Оставить заявку" /><br />
+
+    </main>
+    <footer>
+        <a class="italic-link" href="https://rosstat.gov.ru/politika-konfidencialnosti">Политика конфиденциальности</a>
+            <br /><br />
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Войти в профиль</title>
+        <link rel="shortcut icon" href="./img/photo_0.gif" />
+        <meta charset="utf-8">
+        <meta name="description" content="Личный кабинет">
+        <meta name="keywords" content="Оформить визу в любую страну мира, туризм">
+        <meta name="author" content="MyVisa">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <header id="main-header">
+            <h2 id="site-title">Оформление визы</h2>
+            <h3>Войти в профиль</h3>
+        </header>
+    <br /><br />
+    <main>
+        <section>
+            <table id="table-form1">
+                <tbody>
+                    <tr>
+                        <td>Авторизация:</td>
+                        <td>Регистрация:</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <form action ="html5.php">
+                            <br />
+                            Введите email: <input id="other" name="email" type="email" value="Не email" required="required"/><br />
+                            <br />
+                            Введите пароль: <input id="other" name="parol" type="parol" required="required"/><br />
+                            <br />
+                           
+                            </form>
+                             <input type="submit" id="button-openform" value="Войти" href="./open_form.html" /><br />
+                        </td>
+                   
+                        <td>
+                            <form action="html5.php">
+                            <br />
+                            Введите ФИО: <input id="other" name="name1" type="name" value="ФИО" required="required" /><br />
+                            <br/>
+                            Введите email: <input id="other" name="email" type="email" value="Не email" required="required" /><br />
+                            <br/>
+                            Введите телефон: <input id="other" name="tel1" type="tel" pattern="7[0-9]{10}" required="required" /><br />
+                            (<i>в формате 7XXXXXXXXXX</i>)<br/>
+                            <br/>
+                            Введите пароль: <input id="other" name="parol" type="parol" pattern="[0-9]{8}" required="required" /><br />
+                            <br />
+                          
+                           </form><br /> 
+                           <input type="submit" value="Зарегистрироваться" /><br />
+                        </td>
+                    </tr>
+                </tbody>
+                <br />
+            </table>
+        </section>
+        <br />
+          
+    </main>
+    <footer>
+        <a class="italic-link" href="https://rosstat.gov.ru/politika-konfidencialnosti">Политика конфиденциальности</a>
+            <br /><br />
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./Js/main.js"></script>
+    </body>
+</html>
